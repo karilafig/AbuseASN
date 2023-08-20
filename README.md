@@ -39,7 +39,7 @@ Faça o download do repositório ou clone utilizando o git:
 git clone https://github.com/karilafig/AbuseASN.git
 ```
 Acesse o diretório onde se encontra o repositório clonado e execute o script utilizando python:
-```python
+```powershell
 python3 AbuseASN.py
 ```
 
