@@ -1,15 +1,15 @@
 <pre>
-      ___           ___           ___           ___           ___           ___           ___           ___     
-     /\  \         /\  \         /\__\         /\  \         /\  \         /\  \         /\  \         /\__\    
-    /::\  \       /::\  \       /:/  /        /::\  \       /::\  \       /::\  \       /::\  \       /::|  |   
-   /:/\:\  \     /:/\:\  \     /:/  /        /:/\ \  \     /:/\:\  \     /:/\:\  \     /:/\ \  \     /:|:|  |   
-  /::\~\:\  \   /::\~\:\__\   /:/  /  ___   _\:\~\ \  \   /::\~\:\  \   /::\~\:\  \   _\:\~\ \  \   /:/|:|  |__ 
- /:/\:\ \:\__\ /:/\:\ \:|__| /:/__/  /\__\ /\ \:\ \ \__\ /:/\:\ \:\__\ /:/\:\ \:\__\ /\ \:\ \ \__\ /:/ |:| /\__\
- \/__\:\/:/  / \:\~\:\/:/  / \:\  \ /:/  / \:\ \:\ \/__/ \:\~\:\ \/__/ \/__\:\/:/  / \:\ \:\ \/__/ \/__|:|/:/  /
-      \::/  /   \:\ \::/  /   \:\  /:/  /   \:\ \:\__\    \:\ \:\__\        \::/  /   \:\ \:\__\       |:/:/  / 
-      /:/  /     \:\/:/  /     \:\/:/  /     \:\/:/  /     \:\ \/__/        /:/  /     \:\/:/  /       |::/  /  
-     /:/  /       \::/__/       \::/  /       \::/  /       \:\__\         /:/  /       \::/  /        /:/  /   
-     \/__/         ~~            \/__/         \/__/         \/__/         \/__/         \/__/         \/__/                                                
+                                                                                       
+              ,,                                                                       
+      db     *MM                                        db       .M"""bgd `7MN.   `7MF'
+     ;MM:     MM                                       ;MM:     ,MI    "Y   MMN.    M  
+    ,V^MM.    MM,dMMb.`7MM  `7MM  ,pP"Ybd  .gP"Ya     ,V^MM.    `MMb.       M YMb   M  
+   ,M  `MM    MM    `Mb MM    MM  8I   `" ,M'   Yb   ,M  `MM      `YMMNq.   M  `MN. M  
+   AbmmmqMA   MM     M8 MM    MM  `YMMMa. 8M""""""   AbmmmqMA   .     `MM   M   `MM.M  
+  A'     VML  MM.   ,M9 MM    MM  L.   I8 YM.    ,  A'     VML  Mb     dM   M     YMM  
+.AMA.   .AMMA.P^YbmdP'  `Mbod"YML.M9mmmP'  `Mbmmd'.AMA.   .AMMA.P"Ybmmd"  .JML.    YM  
+                                                                                       
+                                                                                                                                  
 </pre>
 Script que automatiza a pesquisa de blocos de IPs associados a um ASN e verifica se esses IPs têm relatórios de abuso no AbuseIPDB.
 <div>
@@ -27,7 +27,11 @@ Script que automatiza a pesquisa de blocos de IPs associados a um ASN e verifica
  </div>
 
 # Pré requisito
-Python 3.x
+- Python 3.x
+- Nmap 
+```
+https://nmap.org/download#windows
+```
 # Como usar
 Faça o download do repositório ou clone utilizando o git:
 ```
