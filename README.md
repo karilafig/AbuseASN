@@ -3,7 +3,7 @@
    /_\ | |__ _  _ ___ ___  /_\ / __| \| |
   / _ \| '_ \ || (_-</ -_)/ _ \\__ \ .` |
  /_/ \_\_.__/\_,_/__/\___/_/ \_\___/_|\_|
-                                         
+                                                                       
 </pre>
 Script que automatiza a pesquisa de blocos de IPs associados a um ASN e verifica se esses IPs têm relatórios de abuso no AbuseIPDB.
 <div>
