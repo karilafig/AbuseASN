@@ -28,7 +28,8 @@ Script que automatiza a pesquisa de blocos de IPs associados a um ASN e verifica
 
 # Pré requisito
 - Python 3.x
-- Nmap 
+- Nmap
+- API AbuseIPDB (Para buscas de mais de 1000 IPs, utilize a versão paga da API).
 ```
 https://nmap.org/download#windows
 ```
@@ -39,5 +40,7 @@ git clone https://github.com/karilafig/AbuseASN.git
 ```
 Acesse o diretório onde se encontra o repositório clonado e execute o script utilizando python:
 ```python
-////
+python3 AbuseASN.py
 ```
+
+
